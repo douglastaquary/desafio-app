@@ -40,7 +40,7 @@ extension Networking {
 
 extension NetworkingType {
     static func newDefaultNetworking() -> Networking {
-        return Networking(provider: newProvider([NetworkLoggerPlugin(verbose: true)]))
+        return Networking(provider: newProvider([NetworkLoggerPlugin(verbose: false)]))
     }
 }
 

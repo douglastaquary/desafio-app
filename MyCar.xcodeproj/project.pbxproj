@@ -112,15 +112,16 @@
 				9735C25A1F677D250033BD54 /* ModalTransition.swift */,
 			);
 			name = Transitions;
+			path = Transitions;
 			sourceTree = "<group>";
 		};
 		975D83F41F57708000574FE9 = {
 			isa = PBXGroup;
 			children = (
-				975D83FF1F57708100574FE9 /* MyCar */,
-				975D83FE1F57708100574FE9 /* Products */,
-				F3126E322A1BE6F79E5F6DA0 /* Pods */,
 				52C84325DE7F9498A3F1D45D /* Frameworks */,
+				975D83FF1F57708100574FE9 /* MyCar */,
+				F3126E322A1BE6F79E5F6DA0 /* Pods */,
+				975D83FE1F57708100574FE9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,22 +136,22 @@
 		975D83FF1F57708100574FE9 /* MyCar */ = {
 			isa = PBXGroup;
 			children = (
-				9735C2591F677D140033BD54 /* Transitions */,
-				975D84481F579C1A00574FE9 /* Extensions */,
-				975D84431F57935000574FE9 /* Service */,
-				975D84401F57911A00574FE9 /* Networking */,
-				975D84391F578D3E00574FE9 /* Controllers */,
 				975D84361F578C3F00574FE9 /* Apperance */,
-				975D842D1F57883300574FE9 /* Views */,
 				975D84261F57803300574FE9 /* Cells */,
+				975D84391F578D3E00574FE9 /* Controllers */,
 				975D841B1F577C5800574FE9 /* Datasources */,
+				975D84481F579C1A00574FE9 /* Extensions */,
 				975D84161F577A1200574FE9 /* Models */,
+				975D84401F57911A00574FE9 /* Networking */,
+				975D84431F57935000574FE9 /* Service */,
+				9735C2591F677D140033BD54 /* Transitions */,
+				975D842D1F57883300574FE9 /* Views */,
 				975D84001F57708100574FE9 /* AppDelegate.swift */,
-				975D84041F57708100574FE9 /* Main.storyboard */,
 				975D84071F57708100574FE9 /* Assets.xcassets */,
-				975D84091F57708100574FE9 /* LaunchScreen.storyboard */,
 				975D840C1F57708100574FE9 /* Info.plist */,
+				975D84091F57708100574FE9 /* LaunchScreen.storyboard */,
 				975D844D1F57A12E00574FE9 /* Log.swift */,
+				975D84041F57708100574FE9 /* Main.storyboard */,
 			);
 			path = MyCar;
 			sourceTree = "<group>";
@@ -158,12 +159,13 @@
 		975D84161F577A1200574FE9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				975D84141F5779D300574FE9 /* JSONAble.swift */,
 				975D84121F57792700574FE9 /* Brand.swift */,
-				975D84171F577A3800574FE9 /* Model.swift */,
 				975D84191F577AEE00574FE9 /* Car.swift */,
+				975D84141F5779D300574FE9 /* JSONAble.swift */,
+				975D84171F577A3800574FE9 /* Model.swift */,
 			);
 			name = Models;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		975D841B1F577C5800574FE9 /* Datasources */ = {
@@ -171,34 +173,37 @@
 			children = (
 				975D841C1F577C7A00574FE9 /* BrandCollectionDatasource.swift */,
 				975D841E1F577D2B00574FE9 /* BrandItemsCollectionViewDatasource.swift */,
-				975D84201F577DC800574FE9 /* ModelTableDatasource.swift */,
 				975D84221F577E4B00574FE9 /* ModelItemsTableViewDatasource.swift */,
+				975D84201F577DC800574FE9 /* ModelTableDatasource.swift */,
 			);
 			name = Datasources;
+			path = Datasources;
 			sourceTree = "<group>";
 		};
 		975D84261F57803300574FE9 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				975D84241F577EE600574FE9 /* BrandGridView.swift */,
 				975D84271F57804600574FE9 /* BrandCollectionCell.swift */,
-				975D84291F5781A500574FE9 /* ModelTableCell.swift */,
+				975D84241F577EE600574FE9 /* BrandGridView.swift */,
 				975D842B1F57821000574FE9 /* ModelRowView.swift */,
+				975D84291F5781A500574FE9 /* ModelTableCell.swift */,
 			);
 			name = Cells;
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		975D842D1F57883300574FE9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				975D842E1F57884600574FE9 /* BrandCollection.swift */,
-				975D84301F57895100574FE9 /* ModelsTable.swift */,
 				975D84321F578A0800574FE9 /* BrandContainerView.swift */,
-				975D84341F578AEB00574FE9 /* ModelsContainerView.swift */,
-				9735C2571F677A0F0033BD54 /* CarDetailView.swift */,
 				9735C25E1F678F640033BD54 /* BrandModelYearPriceView.swift */,
+				9735C2571F677A0F0033BD54 /* CarDetailView.swift */,
+				975D84341F578AEB00574FE9 /* ModelsContainerView.swift */,
+				975D84301F57895100574FE9 /* ModelsTable.swift */,
 			);
 			name = Views;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		975D84361F578C3F00574FE9 /* Apperance */ = {
@@ -207,25 +212,28 @@
 				975D84371F578C5500574FE9 /* Apperance.swift */,
 			);
 			name = Apperance;
+			path = Apperance;
 			sourceTree = "<group>";
 		};
 		975D84391F578D3E00574FE9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				975D843A1F578D5000574FE9 /* BrandViewController.swift */,
-				975D843C1F578F3100574FE9 /* ModelViewController.swift */,
 				9735C25C1F677EB40033BD54 /* CarDetailViewController.swift */,
+				975D843C1F578F3100574FE9 /* ModelViewController.swift */,
 			);
 			name = Controllers;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		975D84401F57911A00574FE9 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				975D843E1F5790E000574FE9 /* Networking.swift */,
 				975D84411F57915A00574FE9 /* FipeAPI.swift */,
+				975D843E1F5790E000574FE9 /* Networking.swift */,
 			);
 			name = Networking;
+			path = Networking;
 			sourceTree = "<group>";
 		};
 		975D84431F57935000574FE9 /* Service */ = {
@@ -235,6 +243,7 @@
 				975D84461F57939300574FE9 /* CarService.swift */,
 			);
 			name = Service;
+			path = Service;
 			sourceTree = "<group>";
 		};
 		975D84481F579C1A00574FE9 /* Extensions */ = {
@@ -244,6 +253,7 @@
 				975D844B1F579CB500574FE9 /* Observable+Logging.swift */,
 			);
 			name = Extensions;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		F3126E322A1BE6F79E5F6DA0 /* Pods */ = {
@@ -441,6 +451,7 @@
 				975D84051F57708100574FE9 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		975D84091F57708100574FE9 /* LaunchScreen.storyboard */ = {
@@ -449,6 +460,7 @@
 				975D840A1F57708100574FE9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
